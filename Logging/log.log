@@ -1,0 +1,17 @@
+2022-12-14 23:45:02,488 - INFO - info message. x value is 2
+2022-12-14 23:45:02,488 - WARNING - warning message
+2022-12-14 23:45:02,488 - ERROR - error message
+2022-12-14 23:45:02,488 - CRITICAL - critical message
+2022-12-14 23:45:02,489 - ERROR - This is a message to be logged
+Traceback (most recent call last):
+  File "C:\Users\Riki\Desktop\Training\Python_Projects\Logging\logging-python.py", line 24, in <module>
+    10 / 0
+    ~~~^~~
+ZeroDivisionError: division by zero
+2022-12-14 23:45:02,494 - ERROR - This is a message to be logged
+Traceback (most recent call last):
+  File "C:\Users\Riki\Desktop\Training\Python_Projects\Logging\logging-python.py", line 30, in <module>
+    20 / 0
+    ~~~^~~
+ZeroDivisionError: division by zero
+2022-12-14 23:45:02,496 - INFO - test the custom logger
